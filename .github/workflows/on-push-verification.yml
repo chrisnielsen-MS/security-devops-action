@@ -25,7 +25,7 @@ jobs:
     - uses: actions/checkout@v3
 
       # Run analyzers
-    - uses: microsoft/security-devops-action
+    - uses: microsoft/security-devops-action@main
       id: msdo
       env:
         checkov_skippath: 'SecureApp'
