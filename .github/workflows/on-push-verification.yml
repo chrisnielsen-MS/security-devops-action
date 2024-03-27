@@ -28,7 +28,7 @@ jobs:
     - uses: microsoft/security-devops-action@main
       id: msdo
       env:
-        checkov_skippath: 'SecureApp'
+        gdn_checkov_skippath: 'SecureApp'
       with:
         tools: 'checkov'
 
