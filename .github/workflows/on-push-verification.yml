@@ -27,10 +27,10 @@ jobs:
       # Run analyzers
     - uses: microsoft/security-devops-action@main
       id: msdo
-      env:
-        gdn_checkov_skippath: 'SecureApp'
-      with:
-        tools: 'checkov'
+      #env:
+      #  gdn_checkov_skippath: 'SecureApp'
+      #with:
+      #  tools: 'checkov'
 
       # Upload alerts to the Security tab
     - name: Upload alerts to Security tab
